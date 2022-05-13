@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     { path: '@/components/atoms', prefix: 'Atom' },
     { path: '@/components/molecules', prefix: 'Molecule' },
     { path: '@/components/organisms', prefix: 'Organism' },
-    { path: '@/components/templates', prefix: 'Template' },
+    { path: '@/components/templates', prefix: 'Layout' },
   ],
   srcDir: './src',
   modules: [
