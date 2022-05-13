@@ -1,42 +1,17 @@
-# Nuxt 3 Minimal Starter
+# Nuxt3
+[Nuxt3][Nuxt3]은 ```Vue3```를 이식한 **새로운 버전의 Nuxt입니다.**  
+- Nuxt2와는 다르게 프로젝트 설정 직후에 불필요한 디렉토리가 모두 제거된 상태로 설치됩니다.
+- Vue3 문법을 모두 사용할 수 있습니다.
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+# Pinia
+- **Vuex** 지원이 중단되고 출시 된 차세대 상태 관리자입니다.
+- **Typescript를 완전 지원**합니다.
+- ```namespaced```가 제거 되었습니다.
+- ```mutations```이 제거 되었습니다.
+- ```store``` 안에서 **완전한 SFC 로직을 구현할 수 있습니다.**
 
-## Setup
+# Element Plus
+[Element UI][Element UI]의 ```vue3``` 버전입니다.
 
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+[Nuxt3]: https://v3.nuxtjs.org/
+[Element UI]: https://element-plus.org/en-US/
