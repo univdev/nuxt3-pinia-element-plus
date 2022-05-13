@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.3"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.1.9",
+    "element-plus": "^2.2.0",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "pinia": "^2.0.14"
+  }
+}
