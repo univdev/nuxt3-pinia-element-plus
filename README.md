@@ -13,5 +13,17 @@
 # Element Plus
 [Element UI][Element UI]의 ```vue3``` 버전입니다.
 
+# 실행 방법
+**Yarn**
+```
+yarn
+yarn dev
+```
+**npm**
+```
+npm i
+npm run dev
+```
+
 [Nuxt3]: https://v3.nuxtjs.org/
 [Element UI]: https://element-plus.org/en-US/
