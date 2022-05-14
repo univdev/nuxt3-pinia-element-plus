@@ -24,7 +24,7 @@ export const useCart = defineStore('cart', () => {
    * count 프로퍼티는 예외적으로 기존 값에 추가됩니다.
    * @param name
    * @param item
-   * @returns void
+   * @returns
    */
   const updateByName = (name: string, item: ItemType) => {
     const index = items.findIndex(i => i.name === name);
