@@ -24,6 +24,7 @@
       <organism-cart-form
         class="cart-form"
         :name="name"
+        :disabled-submit-button="isDisabledAddItemButton"
         @submit="onAddCartItem"
         @update:name="onUpdateValue('name', $event)"
       />
@@ -55,14 +56,16 @@ export default defineComponent({
     'update:name',
     'add:cart-item'
   ],
-  setup (_, { emit }) {
+  setup (props, { emit }) {
     const onAddCartItem = () => {
       emit('add:cart-item');
     };
     const onUpdateValue = (key: ChangableKeysType, value: string) => {
       emit(`update:${key}`, value);
     };
+    const isDisabledAddItemButton = computed(() => !props.name);
     return {
+      isDisabledAddItemButton,
       onAddCartItem,
       onUpdateValue
     };

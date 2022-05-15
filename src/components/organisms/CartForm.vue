@@ -33,6 +33,7 @@
       >
         <el-button
           class="button--add-item"
+          :disabled="disabledSubmitButton"
           size="large"
           type="primary"
           native-type="submit"
@@ -65,6 +66,11 @@ export default defineComponent({
       type: String as PropType<string>,
       required: false,
       default: '카트에 아이템 추가하기'
+    },
+    disabledSubmitButton: {
+      type: Boolean as PropType<boolean>,
+      required: false,
+      default: false
     }
   },
   emits: [
