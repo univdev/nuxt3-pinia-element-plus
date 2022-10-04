@@ -8,7 +8,7 @@
 - **Typescript를 완전 지원**합니다.
 - ```namespaced```가 제거 되었습니다.
 - ```mutations```이 제거 되었습니다.
-- ```store``` 안에서 **완전한 SFC 로직을 구현할 수 있습니다.**
+- ```store``` 안에서 **완전한 Composition API를 사용할 수 있습니다.**
 
 # Element Plus
 [Element UI][Element UI]의 ```vue3``` 버전입니다.
